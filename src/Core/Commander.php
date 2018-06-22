@@ -401,6 +401,10 @@ class Commander {
             'token'    => true,
             'endpoint' => '/users.list'
         ],
+        'users.lookupByEmail' => [
+            'token'    => true,
+            'endpoint' => '/users.lookupByEmail'
+        ],
         'users.setActive' => [
             'token'    => true,
             'endpoint' => '/users.setActive'
